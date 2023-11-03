@@ -1,0 +1,23 @@
+.grid_container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    height:500px;
+    width:500px;
+    gap:10px;
+}
+.grid-item{
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one{
+    grid-row:span 4;
+}
+.two{
+    grid-column:span 2;
+}
+.seven{
+    grid-column: span 2;
+}

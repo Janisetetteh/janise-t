@@ -1,0 +1,115 @@
+body{
+    margin:0;
+    padding:0;
+    background-image:url(Images/jan-behnisch-LEjOvw6XEkM-unsplash.jpg);
+    background-size: cover;
+    /* overflow: hidden; */
+}
+h2{
+    color:white;
+}
+span{
+    color:aqua;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+}
+.nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+    position: relative;
+    color:white;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+button{
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    height: 40px;
+    border-color: aqua;
+
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+    color: white;
+    margin-top: 50px;
+
+
+}
+.grid-item{
+    display:flex;
+    border:1px solid black;
+    align-items: center;
+    justify-content: center;
+
+}
+.one,.three {
+    background-color: #111111;
+}
+.two,.four{
+   background-color:  #14181D;
+}
+.About{
+    background-color: white;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.info, p{ 
+    align-self: center;
+}
+.main{
+    border: 2px solid white;
+    margin-left: 30px;
+    margin-top: 20px;
+    height:40px;
+    font-size: 18px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Ends{
+    position:relative;
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+.Service{
+color:white;
+}
+.words{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+    color: white;
+    margin-top: 50px;
+    gap:10px;
+}
+.grid-item{
+    background-color:  #111111;;
+}
+.words h3{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction:column;
+}

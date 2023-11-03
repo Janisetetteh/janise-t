@@ -1,0 +1,76 @@
+body{
+    padding: 0;
+    margin:0;
+    background-image: url(Images/collov-home-design-KvGG0paOhOA-unsplash.jpg);
+    background-size: cover;
+}
+nav{
+    display:flex;
+}
+
+.interior h1{
+    text-align:center;
+    position:relative;
+    width:300px;
+}
+.Nav_bar ul li{
+    display: inline-block;
+    list-style: none;
+    margin:0 60px;
+    position: relative;
+}
+
+.Nav_bar ul li a{
+    color:#fff;
+    text-decoration:none;
+    position:relative;
+}
+.Nav_bar ul li::after{
+    content: '';
+    height:3px;
+    width:0%;
+    background:#009688;
+    position: absolute;
+    left:0;
+    bottom:-10px;
+    transition: 0.5s;
+}
+.Nav_bar ul li:hover::after{
+    width:100%; 
+}
+.content{
+    position:absolute;
+    text-align: center;
+    top:40%;
+    width:100%;
+}
+button{
+    width: 200px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-align: center;
+    background: transparent;
+    border:2px solid #009688;
+    padding:15px 0;
+    margin:20px 10px;
+    position: relative;
+    color: #fff;
+    cursor: pointer;
+}
+span{
+  background:#009688;  
+  height: 100%;
+  width:0%;
+  border-radius: 25px;
+  position:absolute;
+  left:0;
+  bottom:0;
+  z-index: -1;
+  transition: 0.5s;
+}
+button:hover span{
+    width:100%
+}
+button:hover{
+    border: none;
+}

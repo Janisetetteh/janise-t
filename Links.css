@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.name{
+    /* border:2px solid black; */
+    width:80px;
+    text-align: center;
+    position:relative;
+    /* right:-10rem; */
+    /* bottom:-3rem; */
+    color:aqua;
+}
+.Nav_bar ul{
+    display:flex;
+    justify-content: space-between;
+    position:relative;
+    /* right:-60rem; */
+    padding:10px;
+    /* border:2px solid black; */
+    width:200px;
+    list-style: none;
+
+}
+span{
+    color:blueviolet;
+}
+a{
+    text-decoration: none;
+    color:black;
+
+}
+a:hover{
+    color:blue;
+}
+img{
+width:500px;
+height:500px;
+border-radius: 10px;
+}
+.hero{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    background-color: aquamarine;
+    width: 100%;
+}
+.p_container{
+    display:flex;
+    justify-content: space-between;
+    height: 500px;
+    width: 1000px;
+
+}
+.Note{ 
+    position:relative;
+    width: 500px;
+    margin-left: 1.5rem;
+}
+span{
+    color:blueviolet;
+}
+
+
+h2{
+    text-align: center;
+}
+.about{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding-left:10rem;
+    background-color: white;
+    /* height: 500px; */
+    width: 1000px;
+}
+.us{
+position:relative;
+margin-left: 2rem;
+
+}
+button{
+    /* display:flex;
+    align-self:center;
+    position:relative; */
+    background-color: orangered;
+    width:150px;
+    height:40px;
+    align-items: center;
+    border:none;
+    border-radius: 2px;;
+    color:white;
+    text-align: center;
+    
+}
+.photo{
+    display: flex;
+}
+.photo img{
+    position: absolute;
+    border-radius: 50%;
+    width:350px;
+    height:350px;
+    top: 45rem;
+    left:7rem;
+    /* z-index: 3; */
+    
+    
+}
+.circle{
+    width:350px;
+    height:350px;
+    background-color: orangered;
+    border-radius: 100%;
+    align-self: center;
+    /* bottom:100r; */
+
+}
+.contact{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    padding-left:10rem;
+    background-color: yellowgreen;
+    padding-top:20px;
+}
+.communication{
+    position:relative;
+     margin-left: 2rem;
+}
+.picture img{
+    width:300px;
+    height:300px;
+}
+h3{
+    font-size: 30px;
+    color:brown;
+}
+.communication button{
+    color:black;
+    background-color: blanchedalmond;
+}
